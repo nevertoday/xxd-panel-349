@@ -2,160 +2,269 @@
 
 # XXD Panel 349｜碎方小岛
 
-上半保留原照，下半把主体和它脚下的一小块地方全部重画成一块块圆角长方形的平涂色块，横着摞起、彼此错开叠压，边缘碎成一圈往外飘散的小方块；深色块里留出一道道往下淌、拐直角弯的白线，沉甸甸的深色底座托着上面明亮的色块，像一座小岛浮在大片白底中间，右下方一行安静的手写小字。
+**把照片主体和脚下一小块地方拆成圆角方块，像小岛浮在白底中间。**
 
-<a href="README.md">简体中文</a> · <a href="README.en.md">English</a> · <a href="README.ja.md">日本語</a> · <a href="README.ko.md">한국어</a> · <a href="README.ar.md">العربية</a>
+<strong>简体中文</strong> · <a href="README.en.md">English</a> · <a href="README.ja.md">日本語</a> · <a href="README.ko.md">한국어</a> · <a href="README.ar.md">العربية</a>
 
 </div>
 
-> 原始提示词（五语入口）：[简中](references/original-prompt/zh-CN.md) · [English](references/original-prompt/en.md) · [日本語](references/original-prompt/ja.md) · [한국어](references/original-prompt/ko.md) · [العربية](references/original-prompt/ar.md)。
-
-## 16:9 左右双联样张
-
-以下二十张使用与上下组完全不同的二十个主题的 Unsplash 竖幅照片，各自生成一张完整的 16:9 左右双联画布：左侧保留现实摄影，右侧是一座浮在白底中间的圆角色块小岛，严格 50:50。语种同样在五种语言间轮换。竖幅主题挑选雪人、钟楼、水塔、尖顶、宝塔、松树和消防栓这类高高立着的单体，用来展示在更窄的半幅里，高挑的形体如何被拆成一摞错开的方块，仍然上轻下重，四周留出大片白。
-
 <table>
   <tr>
-    <td width="50%"><img src="./assets/examples/sample-21.png" alt="XXD Panel 349 sample 21 · 雪人"><br><sub>21 · 雪人</sub></td>
-    <td width="50%"><img src="./assets/examples/sample-22.png" alt="XXD Panel 349 sample 22 · 彩色排屋"><br><sub>22 · 彩色排屋</sub></td>
-  </tr>
-  <tr>
-    <td width="50%"><img src="./assets/examples/sample-23.png" alt="XXD Panel 349 sample 23 · 钟楼"><br><sub>23 · 钟楼</sub></td>
-    <td width="50%"><img src="./assets/examples/sample-24.png" alt="XXD Panel 349 sample 24 · 独树"><br><sub>24 · 独树</sub></td>
-  </tr>
-  <tr>
-    <td width="50%"><img src="./assets/examples/sample-25.png" alt="XXD Panel 349 sample 25 · 水塔"><br><sub>25 · 水塔</sub></td>
-    <td width="50%"><img src="./assets/examples/sample-26.png" alt="XXD Panel 349 sample 26 · 教堂尖顶"><br><sub>26 · 教堂尖顶</sub></td>
-  </tr>
-  <tr>
-    <td width="50%"><img src="./assets/examples/sample-27.png" alt="XXD Panel 349 sample 27 · 棕榈与沙滩"><br><sub>27 · 棕榈与沙滩</sub></td>
-    <td width="50%"><img src="./assets/examples/sample-28.png" alt="XXD Panel 349 sample 28 · 消防栓"><br><sub>28 · 消防栓</sub></td>
-  </tr>
-  <tr>
-    <td width="50%"><img src="./assets/examples/sample-29.png" alt="XXD Panel 349 sample 29 · 街灯"><br><sub>29 · 街灯</sub></td>
-    <td width="50%"><img src="./assets/examples/sample-30.png" alt="XXD Panel 349 sample 30 · 蜂箱"><br><sub>30 · 蜂箱</sub></td>
-  </tr>
-  <tr>
-    <td width="50%"><img src="./assets/examples/sample-31.png" alt="XXD Panel 349 sample 31 · 树屋"><br><sub>31 · 树屋</sub></td>
-    <td width="50%"><img src="./assets/examples/sample-32.png" alt="XXD Panel 349 sample 32 · 鸟屋"><br><sub>32 · 鸟屋</sub></td>
-  </tr>
-  <tr>
-    <td width="50%"><img src="./assets/examples/sample-33.png" alt="XXD Panel 349 sample 33 · 救生员塔"><br><sub>33 · 救生员塔</sub></td>
-    <td width="50%"><img src="./assets/examples/sample-34.png" alt="XXD Panel 349 sample 34 · 邮筒"><br><sub>34 · 邮筒</sub></td>
-  </tr>
-  <tr>
-    <td width="50%"><img src="./assets/examples/sample-35.png" alt="XXD Panel 349 sample 35 · 仙人掌盆"><br><sub>35 · 仙人掌盆</sub></td>
-    <td width="50%"><img src="./assets/examples/sample-36.png" alt="XXD Panel 349 sample 36 · 高楼"><br><sub>36 · 高楼</sub></td>
-  </tr>
-  <tr>
-    <td width="50%"><img src="./assets/examples/sample-37.png" alt="XXD Panel 349 sample 37 · 瀑布岩石"><br><sub>37 · 瀑布岩石</sub></td>
-    <td width="50%"><img src="./assets/examples/sample-38.png" alt="XXD Panel 349 sample 38 · 岩石上的鸟"><br><sub>38 · 岩石上的鸟</sub></td>
-  </tr>
-  <tr>
-    <td width="50%"><img src="./assets/examples/sample-39.png" alt="XXD Panel 349 sample 39 · 宝塔"><br><sub>39 · 宝塔</sub></td>
-    <td width="50%"><img src="./assets/examples/sample-40.png" alt="XXD Panel 349 sample 40 · 一棵松树"><br><sub>40 · 一棵松树</sub></td>
+    <td width="50%"><img src="./assets/examples/sample-01.png" alt="XXD Panel 349 · 01 · 海边小屋"><br><sub>01 · 海边小屋</sub></td>
+    <td width="50%"><img src="./assets/examples/sample-02.png" alt="XXD Panel 349 · 02 · 红色谷仓"><br><sub>02 · 红色谷仓</sub></td>
   </tr>
 </table>
 
-## 3:4 上下双联样张
+<p align="center"><sub>上半是原照片，下半是这个风格画出来的样子。</sub></p>
 
-以下二十张来自二十个主体明确的 Unsplash 横幅照片，各自生成一张完整的 3:4 上下双联画布：上部保留现实摄影，下部是一座由圆角色块和碎方块拼成、浮在白底中间的小岛，严格 50:50。原始提示词不限制语种，样张在简体中文、英文、日文、韩文和阿拉伯文之间轮换，题字由模型从每张照片里提炼。主题以房屋、车船、桥、风车和露营这类自带一块地面的东西为主，用来展示带着环境的照片如何只留下主体和脚下一块，被拆成上轻下重的方块小岛，边缘散开一小圈碎方块。
+## 这是什么
 
-<table>
-  <tr>
-    <td width="50%"><img src="./assets/examples/sample-01.png" alt="XXD Panel 349 sample 01 · 海边小屋"><br><sub>01 · 海边小屋</sub></td>
-    <td width="50%"><img src="./assets/examples/sample-02.png" alt="XXD Panel 349 sample 02 · 红色谷仓"><br><sub>02 · 红色谷仓</sub></td>
-  </tr>
-  <tr>
-    <td width="50%"><img src="./assets/examples/sample-03.png" alt="XXD Panel 349 sample 03 · 露营车"><br><sub>03 · 露营车</sub></td>
-    <td width="50%"><img src="./assets/examples/sample-04.png" alt="XXD Panel 349 sample 04 · 小渔船"><br><sub>04 · 小渔船</sub></td>
-  </tr>
-  <tr>
-    <td width="50%"><img src="./assets/examples/sample-05.png" alt="XXD Panel 349 sample 05 · 老式巴士"><br><sub>05 · 老式巴士</sub></td>
-    <td width="50%"><img src="./assets/examples/sample-06.png" alt="XXD Panel 349 sample 06 · 干草卷"><br><sub>06 · 干草卷</sub></td>
-  </tr>
-  <tr>
-    <td width="50%"><img src="./assets/examples/sample-07.png" alt="XXD Panel 349 sample 07 · 林间小木屋"><br><sub>07 · 林间小木屋</sub></td>
-    <td width="50%"><img src="./assets/examples/sample-08.png" alt="XXD Panel 349 sample 08 · 帐篷"><br><sub>08 · 帐篷</sub></td>
-  </tr>
-  <tr>
-    <td width="50%"><img src="./assets/examples/sample-09.png" alt="XXD Panel 349 sample 09 · 石桥"><br><sub>09 · 石桥</sub></td>
-    <td width="50%"><img src="./assets/examples/sample-10.png" alt="XXD Panel 349 sample 10 · 稻草人"><br><sub>10 · 稻草人</sub></td>
-  </tr>
-  <tr>
-    <td width="50%"><img src="./assets/examples/sample-11.png" alt="XXD Panel 349 sample 11 · 凉亭"><br><sub>11 · 凉亭</sub></td>
-    <td width="50%"><img src="./assets/examples/sample-12.png" alt="XXD Panel 349 sample 12 · 冰山"><br><sub>12 · 冰山</sub></td>
-  </tr>
-  <tr>
-    <td width="50%"><img src="./assets/examples/sample-13.png" alt="XXD Panel 349 sample 13 · 沙滩小船"><br><sub>13 · 沙滩小船</sub></td>
-    <td width="50%"><img src="./assets/examples/sample-14.png" alt="XXD Panel 349 sample 14 · 红蘑菇"><br><sub>14 · 红蘑菇</sub></td>
-  </tr>
-  <tr>
-    <td width="50%"><img src="./assets/examples/sample-15.png" alt="XXD Panel 349 sample 15 · 小岛"><br><sub>15 · 小岛</sub></td>
-    <td width="50%"><img src="./assets/examples/sample-16.png" alt="XXD Panel 349 sample 16 · 灯塔礁石"><br><sub>16 · 灯塔礁石</sub></td>
-  </tr>
-  <tr>
-    <td width="50%"><img src="./assets/examples/sample-17.png" alt="XXD Panel 349 sample 17 · 加油站"><br><sub>17 · 加油站</sub></td>
-    <td width="50%"><img src="./assets/examples/sample-18.png" alt="XXD Panel 349 sample 18 · 码头小屋"><br><sub>18 · 码头小屋</sub></td>
-  </tr>
-  <tr>
-    <td width="50%"><img src="./assets/examples/sample-19.png" alt="XXD Panel 349 sample 19 · 风车磨坊"><br><sub>19 · 风车磨坊</sub></td>
-    <td width="50%"><img src="./assets/examples/sample-20.png" alt="XXD Panel 349 sample 20 · 沙堡"><br><sub>20 · 沙堡</sub></td>
-  </tr>
-</table>
+一个给 AI Agent（Claude Code、Codex 等）用的 Skill。你给它一张照片，它按 Panel 349 的原始提示词画出一张 PNG 成品。
 
-## 适用场景与解决的问题
+- **画成什么样：** 主体和它脚下的一小块地方全部重画成几大块圆角长方形的单色平涂，横着摞起、彼此稍稍错开叠压，身上不留一处照片的质感。边缘不画轮廓，而是断成一圈往外飘散的小方块，越往外越小越稀。深色块里留出几道细细的白线，像水往下淌，偶尔拐个直角弯；栏杆、电线这类细处用一笔深色细线带过。颜色只有照片里最鲜明的一种亮色、最深的一种深色和少量中间色，上轻下重，底座沉甸甸的，色块边缘有一道略深的马克笔式水痕。整组像小岛浮在大片白底中间，不碰任何一边，右下方有一行安静的手写小字。
+- **关键词：** 圆角长方形平涂色块 · 边缘飘散碎方块 · 深色块里留白细线 · 深色底座上轻下重 · 白底浮岛 · 右下手写小字
+- **能出哪些图：** 上下对照（上原图、下设计）、左右对照、只要设计图，或一套手机／平板／电脑／手表壁纸。可以多选，比例和像素随你定。
+- **不是什么：** 不是滤镜，也不是套模板：每张都从你的照片重新画，一张照片一个独立任务。
 
-适合有一个清楚主体、脚下带着一小块地方的照片：海边的房子、田里的谷仓、路边的车、水上的船、山间的桥、一棵独树。也适合构图差、背景乱、主体小的照片——下半会删掉环境，只把主体和脚下一块切成方块堆成的小岛，让边缘散成碎方块，把它救成一张成立的速写本小水彩。照片本身是街道、风景或室内时，只取最有代表性的一个单体或片段。
+## 三步用起来
 
-关键是主体身上不留一处照片质感，全部是几大块圆角长方形的单色平涂，横着摞起、稍稍错开叠压；上半是照片里最鲜明的颜色，底座是最深的颜色，中间夹几块中间色；边缘不画轮廓而是断成越往外越小越稀的碎方块；深色块里留出往下淌、偶尔拐直角的白线；色块边缘一道略深的水痕；整组像小岛一样浮在大片白底中间、不碰任何一边；右下方一行字距拉开的手写小字。避免完整场景复刻、背景填满、主体保留照片样子只把脚下变方块、整齐的像素格、轮廓线、碎方块撒满画面、写实水彩晕染、画出地平线和天空、颜色太多太杂，以及把白线画成随意的高光。
-
-## 使用窍门
-
-- **先给一张清楚的照片：** 先选一张主体、动作和关系都容易辨认的图，再决定输出方式与比例。
-- **一句话串起参数：** 直接说“上下对照 / 左右对照 / 纯设计 + 16:9 / 3:4 / 手机壁纸”，也可以补充电脑、平板或电子手表尺寸。
-- **把必须保留的内容说清楚：** 指定人物、物件、动作、关系和文字；避免同时规定过多布局细节，让风格有空间完成设计。
-- **文字有三种选择：** 让模型按图片智能生成、用 `--text exact --copy` 锁定逐字文案，或用 `--text none` 完全不要文字。
-- **说明现实区与设计区：** 上下或左右对照时，注明哪一侧保留照片、哪一侧负责设计转译；纯设计和壁纸则说明整张画布都要重新设计。
-- **先单张试，再批量做：** 先用一张图确认模式、比例、文字和语言，再把同一套参数用于目录批处理；每轮只改一个变量，结果更容易比较。
-
-## 开始使用
-
-从 GitHub 安装：
+**1. 安装。** Claude Code、Codex 等支持 Skills 的 Agent 都能用：
 
 ```bash
 npx skills add https://github.com/nevertoday/xxd-panel-349 --skill xxd-panel-349
 ```
 
-安装后重新启动 Agent 会话，然后调用 `$xxd-panel-349`。也可以按需追加 `--global --agent codex --yes` 做用户级安装。
+装完重开一次 Agent 会话。也可以 `git clone` 本仓库，再把目录链接到 `~/.claude/skills/xxd-panel-349` 或 `~/.codex/skills/xxd-panel-349`。
 
-常用调用示例：
+**2. 确认 Agent 能生图。** 这个 Skill 不自带生图模型，用的是你 Agent 的生图能力，首选 GPT Image 2。
+
+- Codex 开着内置生图时直接能用。
+- Claude Code 等没有内置生图的 Agent，需要接一个 OpenAI 兼容的生图接口，五分钟配好，见[没有内置生图怎么配](#没有内置生图怎么配)。
+
+不确定也可以直接用。不能生图时 Skill 会先停下来告诉你，不会白跑。
+
+**3. 发照片，说一句话：**
+
+> 用 xxd-panel-349 把这张照片做成 3:4 上下对照海报，配中文标题。
+
+说清楚了就直接出图；没说到的（版式、比例、文字）它会问你，通常一两个问题。成品是 PNG，放在 `~/Desktop/xxd/xxd-panel-349/` 下本次任务的新文件夹里。
+
+## 什么照片效果好
+
+**效果好**
+
+- 主体带着脚下一小块地方的照片：海边的房子、田里的谷仓、水上的船
+- 形体简单、块面清楚的对象：路边的车、山间的桥、一棵独树
+- 构图差、背景乱或主体很小的照片，会被切成一座方块小岛
+
+**不太合适**
+
+- 需要保留人脸、细节或照片质感的照片，这里全部换成方块
+- 想要地平线、天空或完整街景、室内的需求，这里只取一个单体
+- 想要整齐像素格、轮廓线、写实水彩晕染或很多种颜色的需求
+
+## 样张
+
+下面每张都是这个 Skill 用一张照片生成的成品。上下对照和左右对照用的是不同的照片。
+
+### 上下对照：上原照片，下设计
+
+<table>
+  <tr>
+    <td width="50%"><img src="./assets/examples/sample-01.png" alt="XXD Panel 349 · 01 · 海边小屋"><br><sub>01 · 海边小屋</sub></td>
+    <td width="50%"><img src="./assets/examples/sample-02.png" alt="XXD Panel 349 · 02 · 红色谷仓"><br><sub>02 · 红色谷仓</sub></td>
+  </tr>
+  <tr>
+    <td width="50%"><img src="./assets/examples/sample-03.png" alt="XXD Panel 349 · 03 · 露营车"><br><sub>03 · 露营车</sub></td>
+    <td width="50%"><img src="./assets/examples/sample-04.png" alt="XXD Panel 349 · 04 · 小渔船"><br><sub>04 · 小渔船</sub></td>
+  </tr>
+</table>
+
+<details>
+<summary>再看 16 张</summary>
+
+<table>
+  <tr>
+    <td width="50%"><img src="./assets/examples/sample-05.png" alt="XXD Panel 349 · 05 · 老式巴士"><br><sub>05 · 老式巴士</sub></td>
+    <td width="50%"><img src="./assets/examples/sample-06.png" alt="XXD Panel 349 · 06 · 干草卷"><br><sub>06 · 干草卷</sub></td>
+  </tr>
+  <tr>
+    <td width="50%"><img src="./assets/examples/sample-07.png" alt="XXD Panel 349 · 07 · 林间小木屋"><br><sub>07 · 林间小木屋</sub></td>
+    <td width="50%"><img src="./assets/examples/sample-08.png" alt="XXD Panel 349 · 08 · 帐篷"><br><sub>08 · 帐篷</sub></td>
+  </tr>
+  <tr>
+    <td width="50%"><img src="./assets/examples/sample-09.png" alt="XXD Panel 349 · 09 · 石桥"><br><sub>09 · 石桥</sub></td>
+    <td width="50%"><img src="./assets/examples/sample-10.png" alt="XXD Panel 349 · 10 · 稻草人"><br><sub>10 · 稻草人</sub></td>
+  </tr>
+  <tr>
+    <td width="50%"><img src="./assets/examples/sample-11.png" alt="XXD Panel 349 · 11 · 凉亭"><br><sub>11 · 凉亭</sub></td>
+    <td width="50%"><img src="./assets/examples/sample-12.png" alt="XXD Panel 349 · 12 · 冰山"><br><sub>12 · 冰山</sub></td>
+  </tr>
+  <tr>
+    <td width="50%"><img src="./assets/examples/sample-13.png" alt="XXD Panel 349 · 13 · 沙滩小船"><br><sub>13 · 沙滩小船</sub></td>
+    <td width="50%"><img src="./assets/examples/sample-14.png" alt="XXD Panel 349 · 14 · 红蘑菇"><br><sub>14 · 红蘑菇</sub></td>
+  </tr>
+  <tr>
+    <td width="50%"><img src="./assets/examples/sample-15.png" alt="XXD Panel 349 · 15 · 小岛"><br><sub>15 · 小岛</sub></td>
+    <td width="50%"><img src="./assets/examples/sample-16.png" alt="XXD Panel 349 · 16 · 灯塔礁石"><br><sub>16 · 灯塔礁石</sub></td>
+  </tr>
+  <tr>
+    <td width="50%"><img src="./assets/examples/sample-17.png" alt="XXD Panel 349 · 17 · 加油站"><br><sub>17 · 加油站</sub></td>
+    <td width="50%"><img src="./assets/examples/sample-18.png" alt="XXD Panel 349 · 18 · 码头小屋"><br><sub>18 · 码头小屋</sub></td>
+  </tr>
+  <tr>
+    <td width="50%"><img src="./assets/examples/sample-19.png" alt="XXD Panel 349 · 19 · 风车磨坊"><br><sub>19 · 风车磨坊</sub></td>
+    <td width="50%"><img src="./assets/examples/sample-20.png" alt="XXD Panel 349 · 20 · 沙堡"><br><sub>20 · 沙堡</sub></td>
+  </tr>
+</table>
+
+</details>
+
+### 左右对照：左原照片，右设计
+
+<table>
+  <tr>
+    <td width="50%"><img src="./assets/examples/sample-21.png" alt="XXD Panel 349 · 21 · 雪人"><br><sub>21 · 雪人</sub></td>
+    <td width="50%"><img src="./assets/examples/sample-22.png" alt="XXD Panel 349 · 22 · 彩色排屋"><br><sub>22 · 彩色排屋</sub></td>
+  </tr>
+  <tr>
+    <td width="50%"><img src="./assets/examples/sample-23.png" alt="XXD Panel 349 · 23 · 钟楼"><br><sub>23 · 钟楼</sub></td>
+    <td width="50%"><img src="./assets/examples/sample-24.png" alt="XXD Panel 349 · 24 · 独树"><br><sub>24 · 独树</sub></td>
+  </tr>
+</table>
+
+<details>
+<summary>再看 16 张</summary>
+
+<table>
+  <tr>
+    <td width="50%"><img src="./assets/examples/sample-25.png" alt="XXD Panel 349 · 25 · 水塔"><br><sub>25 · 水塔</sub></td>
+    <td width="50%"><img src="./assets/examples/sample-26.png" alt="XXD Panel 349 · 26 · 教堂尖顶"><br><sub>26 · 教堂尖顶</sub></td>
+  </tr>
+  <tr>
+    <td width="50%"><img src="./assets/examples/sample-27.png" alt="XXD Panel 349 · 27 · 棕榈与沙滩"><br><sub>27 · 棕榈与沙滩</sub></td>
+    <td width="50%"><img src="./assets/examples/sample-28.png" alt="XXD Panel 349 · 28 · 消防栓"><br><sub>28 · 消防栓</sub></td>
+  </tr>
+  <tr>
+    <td width="50%"><img src="./assets/examples/sample-29.png" alt="XXD Panel 349 · 29 · 街灯"><br><sub>29 · 街灯</sub></td>
+    <td width="50%"><img src="./assets/examples/sample-30.png" alt="XXD Panel 349 · 30 · 蜂箱"><br><sub>30 · 蜂箱</sub></td>
+  </tr>
+  <tr>
+    <td width="50%"><img src="./assets/examples/sample-31.png" alt="XXD Panel 349 · 31 · 树屋"><br><sub>31 · 树屋</sub></td>
+    <td width="50%"><img src="./assets/examples/sample-32.png" alt="XXD Panel 349 · 32 · 鸟屋"><br><sub>32 · 鸟屋</sub></td>
+  </tr>
+  <tr>
+    <td width="50%"><img src="./assets/examples/sample-33.png" alt="XXD Panel 349 · 33 · 救生员塔"><br><sub>33 · 救生员塔</sub></td>
+    <td width="50%"><img src="./assets/examples/sample-34.png" alt="XXD Panel 349 · 34 · 邮筒"><br><sub>34 · 邮筒</sub></td>
+  </tr>
+  <tr>
+    <td width="50%"><img src="./assets/examples/sample-35.png" alt="XXD Panel 349 · 35 · 仙人掌盆"><br><sub>35 · 仙人掌盆</sub></td>
+    <td width="50%"><img src="./assets/examples/sample-36.png" alt="XXD Panel 349 · 36 · 高楼"><br><sub>36 · 高楼</sub></td>
+  </tr>
+  <tr>
+    <td width="50%"><img src="./assets/examples/sample-37.png" alt="XXD Panel 349 · 37 · 瀑布岩石"><br><sub>37 · 瀑布岩石</sub></td>
+    <td width="50%"><img src="./assets/examples/sample-38.png" alt="XXD Panel 349 · 38 · 岩石上的鸟"><br><sub>38 · 岩石上的鸟</sub></td>
+  </tr>
+  <tr>
+    <td width="50%"><img src="./assets/examples/sample-39.png" alt="XXD Panel 349 · 39 · 宝塔"><br><sub>39 · 宝塔</sub></td>
+    <td width="50%"><img src="./assets/examples/sample-40.png" alt="XXD Panel 349 · 40 · 一棵松树"><br><sub>40 · 一棵松树</sub></td>
+  </tr>
+</table>
+
+</details>
+
+## 常用说法
+
+不用记参数，直接说就行：
+
+| 你想要 | 直接这样说 |
+|---|---|
+| 上下对照 | 做成 3:4 上下对照 |
+| 左右对照 | 做成 16:9 左右对照，左边放原图 |
+| 只要设计图 | 只要设计，不要原图，9:16 竖版 |
+| 一套壁纸 | 做一套手机、平板、电脑、手表壁纸，风格连起来 |
+| 一次多种比例 | 同一张做 1:1、3:4、16:9 各一张 |
+| 用自己的文字 | 标题就写「让风经过这里」，一个字都别改 |
+| 不要文字 | 不要任何文字 |
+| 指定文字语言 | 文字用日语 |
+| 整个文件夹 | 把这个文件夹里的照片都做成上下对照 |
+| 沿用上次 | 沿用上次的设置 |
+
+习惯命令行也行，参数和上面一一对应：
 
 ```text
 /xxd-panel-349 photo.jpg --mode top-bottom --size 3:4 --text prompt --locale zh-CN
-/xxd-panel-349 photo.jpg --mode left-right --size 16:9 --text prompt --locale en-US
-/xxd-panel-349 photo.jpg --mode design-only --size 9:16 --text none --prefs off
-/xxd-panel-349 ./photos --mode design-only --size auto,3:4 --text prompt --locale ja-JP
+/xxd-panel-349 photo.jpg --mode design-only --size 9:16 --text none
+/xxd-panel-349 ./photos --mode left-right --size 16:9 --text prompt --locale en-US
 ```
 
-完整运行契约见 [SKILL.md](SKILL.md)；运行适配器见 [英文](references/xxd-panel-349-prompt.en.md) 与 [中文](references/xxd-panel-349-prompt.zh-CN.md)。
+全部参数见[参数参考](#参数参考)。
+
+## 常见问题
+
+**一定要放原照片吗？** 不用。说「只要设计图」或者做壁纸，整张都是设计。
+
+**文字是谁写的？** 默认由生图模型看着你的照片现写，你只定语言。要用自己的字就直说，会一字不改；也可以完全不要字。看起来像事实的信息（地名、日期、数字）只用你给的或照片里看得见的，不会编。
+
+**不满意怎么办？** 说「再来一张」。它会从原照片重新画，而不是在上一张上修改，所以每次结果都不一样。
+
+**批量会不会串？** 不会。每张照片单独生成，不借用别的照片的颜色、文字或构图。整批只问一次设置。
+
+**我的照片会发到哪里？** 只发给你自己的 Agent 所用的生图模型。Skill 不往别处上传，也不在输出里显示接口地址和密钥。
+
+**和其他 Panel 是什么关系？** XXD Panel 是一组风格，一个编号一种，互不影响，可以只装你喜欢的。想让 AI 按照片推荐风格，或者一次比较几个风格，用总目录 [xxd-panel-all](https://github.com/nevertoday/xxd-panel-all)。
 
 ## 原始提示词
 
-[中文完整原稿](references/original-prompt/zh-CN.md)逐字保留，是运行时唯一的创作与审美权威。本批提供五语使用说明，不另做四份长原稿译文；风格简介只用于检索，不得替代原文。
+这个风格完全由小小东写的[原始提示词](references/original-prompt/zh-CN.md)决定。Skill 只在后面追加你选的版式、尺寸和文字设置，不总结、不翻译、不改写它。
 
-## 快速判断：Panel 349 适合你吗？
+阅读译文（只供阅读，不参与出图）：[English](references/original-prompt/en.md) · [日本語](references/original-prompt/ja.md) · [한국어](references/original-prompt/ko.md) · [العربية](references/original-prompt/ar.md)
 
-既要保留源图身份，也要重新构图；既要材质特征，也要主动留白。可选准确文字、智能文案或无文字；支持单图、递归目录批量以及下方四种交付模式。
+## 没有内置生图怎么配
 
-## 四种输出模式
+需要一个支持 `gpt-image-2`（或兼容模型）的 OpenAI 兼容接口和它的 API Key。下面单独建一份配置，不影响你 Codex 本身的设置：
 
-- `top-bottom`：整张画布只有上下两个全宽区域，现实照片在上、设计在下，严格各占 50%。
-- `left-right`：整张画布只有左右两个全高区域，现实照片在左、设计在右，严格各占 50%，不会旋转成上下结构。
-- `design-only`：整张画布只呈现 Panel 349 的设计转译，照片只作为不可见参考。
-- `wallpaper-pack`：按手机、iPad、桌面和手表分别生成完整设计壁纸，可选 `linked` 连贯套装或 `independent` 四张独立。
+```bash
+mkdir -p ~/.xxd-imagegen
+cat > ~/.xxd-imagegen/config.toml <<'EOF'
+model_provider = "image"
 
-支持多选模式与比例（`1:1`、`3:4`、`4:3`、`4:5`、`5:4`、`2:3`、`3:2`、`9:16`、`16:9`、`21:9`、`5:7`、`7:5` 或准确像素），以及模型生成文字、准确文字和无文字。传入目录会递归扫描图片，每张源图独立处理，共用一次交付设置；最终 PNG 平铺放入一个新任务目录。
+[model_providers.image]
+base_url = "https://api.openai.com/v1"   # 或你的兼容接口
+env_key = "XXD_IMAGE_API_KEY"
+EOF
+
+# 写进 ~/.zshrc 或 ~/.bashrc，让 Agent 也能读到
+echo 'export XXD_IMAGEGEN_CODEX_DIR=~/.xxd-imagegen' >> ~/.zshrc
+echo 'export XXD_IMAGE_API_KEY=你的密钥' >> ~/.zshrc
+```
+
+重开终端和 Agent 后，在本 Skill 目录里检查一次：
+
+```bash
+python3 scripts/configured_imagegen.py probe
+```
+
+输出 `"ok":true` 就是通了；它只显示是否可用，不会打印地址和密钥。如果你的 Codex 已经通过兼容接口出图，不需要这一步。
+
+## 参数参考
+
+| 参数 | 取值 |
+|---|---|
+| `--mode` | `top-bottom` 上下对照 · `left-right` 左右对照 · `design-only` 只要设计 · `wallpaper-pack` 四端壁纸；可多选 |
+| `--size` | `auto` 智能推荐 · `source` 跟随原图 · `1:1` `3:4` `4:3` `4:5` `5:4` `2:3` `3:2` `9:16` `16:9` `21:9` `5:7` `7:5` · 准确像素如 `2160x3840`；可多选 |
+| `--text` | `prompt` 模型按照片写 · `exact` 用你的原文（配合 `--copy "…"`） · `none` 不要文字 |
+| `--locale` | 文字语言，如 `zh-CN` `en-US` `ja-JP` `ko-KR` `ar` |
+| `--wallpaper` | `linked` 四张风格连贯 · `independent` 四张各自独立 |
+| `--wallpaper-size` | 指定设备像素，如 `phone=1440x3200,desktop=3840x2160` |
+| `--out` | 换一个输出根目录（默认 `~/Desktop/xxd/xxd-panel-349/`） |
+| `--prefs` | `last` 沿用上次 · `edit` 在上次基础上改 · `new` 重新选 · `off` 这次不记住 · `clear` 清除记录 |
+
+- 参数齐全时不再提问，缺什么只问什么。`photo.jpg` 换成文件夹路径就是批量。
+- 多选会逐个生成：2 种模式 × 3 种比例 = 6 张，每张都按自己的画布重新构图，不是裁出来的。
+- 对照图严格 50:50：通常模型只画设计那一半，再由脚本把原照片原样拼上，所以分界在正中、原照片不会被改。
+- 文件名形如 `source-001-street-top-bottom-3x4-1152x1536.png`，全部平铺在一个任务文件夹里。
+- 只记住版式、尺寸、文字方式和语言这些设置，不记照片、文案和密钥。
 
 <!-- xxd-readme-ads:start -->
 ## 关于 XXD

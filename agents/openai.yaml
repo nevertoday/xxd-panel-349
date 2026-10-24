@@ -1,4 +1,4 @@
 interface:
   display_name: "XXD Panel 349"
-  short_description: "碎方小岛：上半保留原照，下半把主体和脚下一块拆成圆角方块叠成的小岛，边缘飘散碎方块，深色块里淌下白线，浮在大片白底中间"
-  default_prompt: "Use $xxd-panel-349 to transform my photograph following the complete canonical source brief."
+  short_description: "碎方小岛：把照片主体和脚下一块拆成圆角方块，边缘飘散碎块，浮在白底中间"
+  default_prompt: "Use $xxd-panel-349 to turn my photo into Block Island Vignette artwork."

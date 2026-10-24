@@ -1,0 +1,119 @@
+{
+  "skill_description": "XXD Panel 349｜Block Island Vignette: keeps the photo and redraws its subject and the small patch of ground under it entirely as flat rounded-rectangle colour blocks, slightly offset, with no photo texture left — edges break into a ring of little squares drifting outward and thinning, thin white lines run down through the dark blocks and turn at right angles, a heavy dark base carries bright blocks above, one bright colour, one dark and a few midtones from the photo, the whole group floating like a small island in a wide white field, plus one quiet handwritten line at the lower right; any Chinese is Simplified. Scenes are reduced to one representative element. Outputs PNG top-bottom or left-right comparisons, design-only images, or phone/tablet/desktop/watch wallpapers, from one photo or a folder. Use when the user invokes xxd-panel-349 or asks for a rounded-block watercolour, block-island sketch or building-block style vignette from a photo.",
+  "short_description": "碎方小岛：把照片主体和脚下一块拆成圆角方块，边缘飘散碎块，浮在白底中间",
+  "zh-CN": {
+    "name": "碎方小岛",
+    "tagline": "把照片主体和脚下一小块地方拆成圆角方块，像小岛浮在白底中间。",
+    "look": "主体和它脚下的一小块地方全部重画成几大块圆角长方形的单色平涂，横着摞起、彼此稍稍错开叠压，身上不留一处照片的质感。边缘不画轮廓，而是断成一圈往外飘散的小方块，越往外越小越稀。深色块里留出几道细细的白线，像水往下淌，偶尔拐个直角弯；栏杆、电线这类细处用一笔深色细线带过。颜色只有照片里最鲜明的一种亮色、最深的一种深色和少量中间色，上轻下重，底座沉甸甸的，色块边缘有一道略深的马克笔式水痕。整组像小岛浮在大片白底中间，不碰任何一边，右下方有一行安静的手写小字。",
+    "traits": [
+      "圆角长方形平涂色块",
+      "边缘飘散碎方块",
+      "深色块里留白细线",
+      "深色底座上轻下重",
+      "白底浮岛",
+      "右下手写小字"
+    ],
+    "good": [
+      "主体带着脚下一小块地方的照片：海边的房子、田里的谷仓、水上的船",
+      "形体简单、块面清楚的对象：路边的车、山间的桥、一棵独树",
+      "构图差、背景乱或主体很小的照片，会被切成一座方块小岛"
+    ],
+    "poor": [
+      "需要保留人脸、细节或照片质感的照片，这里全部换成方块",
+      "想要地平线、天空或完整街景、室内的需求，这里只取一个单体",
+      "想要整齐像素格、轮廓线、写实水彩晕染或很多种颜色的需求"
+    ]
+  },
+  "en": {
+    "name": "Block Island Vignette",
+    "tagline": "Breaks the subject of your photo and its patch of ground into rounded blocks floating like a small island on white.",
+    "look": "The subject and the little patch of ground under it are redrawn entirely as a few large single-colour rounded rectangles, stacked sideways and slightly offset, with no trace of photo texture left. Instead of an outline, the edges break into a ring of small squares drifting outward, smaller and sparser the further they go. Thin white lines are left inside the dark blocks, running down like water and now and then turning a right angle; fine parts such as railings or wires are a single dark stroke. Colour is limited to the photo's brightest hue, its darkest and a few midtones, light at the top and heavy at the base, with a slightly darker marker-like edge on each block. The group floats like an island in a wide white field, touching no side, with one quiet handwritten line at the lower right.",
+    "traits": [
+      "Flat rounded-rectangle blocks",
+      "Drifting squares at the edges",
+      "White lines in dark blocks",
+      "Heavy dark base",
+      "Island on white",
+      "Handwritten line at lower right"
+    ],
+    "good": [
+      "Subjects with a small patch of ground under them: a house by the sea, a barn in a field, a boat on the water",
+      "Simple, clearly blocked shapes: a car by the road, a bridge in the hills, a lone tree",
+      "Photos with weak composition, messy backgrounds or a small subject, which get cut into one block island"
+    ],
+    "poor": [
+      "Photos where faces, detail or photographic texture must stay, since everything becomes blocks",
+      "Requests for a horizon, sky or a whole street or interior, since only one element is kept",
+      "Requests for a neat pixel grid, outlines, realistic watercolour bleeds or many colours"
+    ]
+  },
+  "ja": {
+    "name": "角片の小島",
+    "tagline": "写真の主役と足もとの小さな地面を角丸の四角に分け、白地に浮かぶ小島のようにします。",
+    "look": "主役と足もとの小さな地面を、すべて角の丸い長方形の単色平塗り数枚で描き直し、横に積んで少しずつずらして重ねます。写真の質感は一か所も残しません。縁は輪郭線を引かず、外へ漂い出す小さな四角の輪にほどけ、外へ行くほど小さくまばらになります。濃い色面の中には細い白い線が残り、水が流れ落ちるように下へ伸びて、ときどき直角に曲がります。手すりや電線のような細い部分は濃い色の一筆で済ませます。色は写真でいちばん鮮やかな明るい色一つ、いちばん暗い色一つ、それに少しの中間色だけで、上は軽く下は重く、台座はずっしりとして、色面の縁にはマーカーのような少し濃い水のあとがあります。全体は広い白地の真ん中に小島のように浮かび、どの辺にも触れず、右下に静かな手書きの一行が入ります。",
+    "traits": [
+      "角丸長方形の平塗り",
+      "縁に漂う小さな四角",
+      "濃い色面の白い線",
+      "重い濃色の台座",
+      "白地に浮かぶ島",
+      "右下の手書きの一行"
+    ],
+    "good": [
+      "主役が足もとの小さな地面ごと写っている写真：海辺の家、畑の納屋、水に浮かぶ舟",
+      "形がシンプルで面のはっきりした対象：道端の車、山あいの橋、一本の木",
+      "構図が平凡、背景が散らかっている、主役が小さい写真（四角の小島に切り出します）"
+    ],
+    "poor": [
+      "顔や細部、写真の質感を残したい写真（すべて四角の色面に置き換わります）",
+      "地平線や空、通り全体や室内全体が必要な場合（一つの単体だけを取ります）",
+      "整ったピクセルの格子、輪郭線、写実的な水彩のにじみ、たくさんの色を求める場合"
+    ]
+  },
+  "ko": {
+    "name": "조각 사각 섬",
+    "tagline": "사진 속 주인공과 발밑 땅 한 조각을 둥근 사각 블록으로 나눠 흰 바탕 위 작은 섬처럼 띄웁니다.",
+    "look": "주인공과 그 발밑의 작은 땅을 모두 모서리가 둥근 직사각형 단색 평칠 몇 덩어리로 다시 그리고, 옆으로 쌓아 조금씩 어긋나게 겹칩니다. 사진의 질감은 한 군데도 남기지 않습니다. 가장자리는 외곽선 대신 바깥으로 흩어지는 작은 사각형들의 고리로 부서지며, 멀어질수록 더 작고 성깁니다. 짙은 색 덩어리 안에는 가는 흰 선이 남아 물이 흘러내리듯 아래로 이어지다 가끔 직각으로 꺾입니다. 난간이나 전선 같은 가는 부분은 짙은 색 한 획으로 처리합니다. 색은 사진에서 가장 선명한 밝은 색 하나, 가장 어두운 색 하나, 약간의 중간색뿐이며, 위는 가볍고 아래는 무거워 받침이 묵직하고, 색 덩어리 가장자리에는 마커 같은 조금 짙은 물 자국이 있습니다. 전체는 넓은 흰 바탕 한가운데 작은 섬처럼 떠서 어느 가장자리에도 닿지 않고, 오른쪽 아래에 조용한 손글씨 한 줄이 있습니다.",
+    "traits": [
+      "둥근 직사각형 평칠 블록",
+      "가장자리에 흩어지는 사각 조각",
+      "짙은 덩어리 속 흰 선",
+      "묵직한 짙은 받침",
+      "흰 바탕 위 섬",
+      "오른쪽 아래 손글씨 한 줄"
+    ],
+    "good": [
+      "주인공이 발밑 땅 한 조각과 함께 찍힌 사진: 바닷가 집, 들판의 헛간, 물 위의 배",
+      "형태가 단순하고 면이 분명한 대상: 길가의 차, 산골 다리, 홀로 선 나무",
+      "구도가 평범하거나 배경이 어수선하거나 주인공이 작은 사진(사각 블록 섬으로 잘라 냅니다)"
+    ],
+    "poor": [
+      "얼굴, 세부, 사진 질감을 살려야 하는 사진(모두 사각 블록으로 바뀝니다)",
+      "지평선, 하늘, 거리 전체나 실내 전체가 필요한 경우(단일 요소 하나만 남깁니다)",
+      "가지런한 픽셀 격자, 외곽선, 사실적인 수채 번짐, 많은 색을 원하는 경우"
+    ]
+  },
+  "ar": {
+    "name": "جزيرة المربّعات المتناثرة",
+    "tagline": "يفكّك العنصر الرئيسي في صورتك ورقعة الأرض تحته إلى كتل مستديرة الزوايا تطفو كجزيرة صغيرة على البياض.",
+    "look": "يُعاد رسم العنصر والرقعة الصغيرة من الأرض تحته بالكامل في بضع مستطيلات كبيرة مستديرة الزوايا، كل منها بلون واحد مسطّح، مكدّسة أفقياً ومنزاحة قليلاً بعضها عن بعض، دون أن يبقى أي أثر لملمس الصورة. لا تُرسم حدود، بل تنكسر الأطراف إلى حلقة من مربّعات صغيرة تتناثر إلى الخارج وتصغر وتتباعد كلما ابتعدت. داخل الكتل الداكنة خطوط بيضاء رفيعة تنساب إلى الأسفل كالماء وتنعطف أحياناً بزاوية قائمة، والأجزاء الدقيقة كالدرابزين والأسلاك ضربة داكنة واحدة. الألوان محصورة في أكثر ألوان الصورة إشراقاً وأدكنها وقليل من الدرجات الوسطى، خفيفة في الأعلى ثقيلة في القاعدة، ولكل كتلة حافة أدكن قليلاً كأثر قلم التحديد. تطفو المجموعة كجزيرة في وسط مساحة بيضاء واسعة لا تلمس أي طرف، وفي أسفل اليمين سطر هادئ واحد بخط اليد.",
+    "traits": [
+      "كتل مستطيلة مستديرة الزوايا",
+      "مربّعات متناثرة عند الأطراف",
+      "خطوط بيضاء في الكتل الداكنة",
+      "قاعدة داكنة ثقيلة",
+      "جزيرة على البياض",
+      "سطر بخط اليد أسفل اليمين"
+    ],
+    "good": [
+      "عناصر معها رقعة صغيرة من الأرض تحتها: بيت على البحر، حظيرة في حقل، قارب على الماء",
+      "أشكال بسيطة واضحة الكتل: سيارة على جانب الطريق، جسر بين التلال، شجرة منفردة",
+      "صور ضعيفة التكوين أو بخلفية فوضوية أو بعنصر صغير، تُقتطع في جزيرة واحدة من الكتل"
+    ],
+    "poor": [
+      "صور يجب أن تبقى فيها الوجوه أو التفاصيل أو ملمس الصورة، إذ يتحول كل شيء إلى كتل",
+      "طلب أفق أو سماء أو شارع كامل أو غرفة كاملة، إذ لا يُحتفظ إلا بعنصر واحد",
+      "طلب شبكة بكسلات منتظمة أو خطوط محيطة أو تسرّب ألوان مائية واقعي أو ألوان كثيرة"
+    ]
+  }
+}
